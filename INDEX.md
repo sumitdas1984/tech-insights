@@ -10,10 +10,10 @@
 
 | Week | Date | Blog Title | Status | Link | Platform |
 |------|------|------------|--------|------|----------|
-| Week 4 | Mar 22 | Dataclasses vs. Pydantic | Draft | - | LinkedIn |
+| Week 4 | Mar 22 | Dataclasses vs. Pydantic | Published | https://www.linkedin.com/pulse/dataclasses-vs-pydantic-choosing-right-tool-job-sumit-das-fbn7c/ | LinkedIn |
 | Week 5 | Mar 29 | | Planned | - | LinkedIn |
 
-**Monthly Progress:** 0/4 published
+**Monthly Progress:** 1/4 published
 
 ### April 2026
 
@@ -39,7 +39,7 @@
 
 ## Quick Stats
 
-- **Total Published:** 0
+- **Total Published:** 1
 - **Current Month:** March 2026
 - **This Month's Goal:** 4 blogs
-- **Streak:** 0 weeks
+- **Streak:** 1 week
