@@ -1,36 +1,39 @@
 # Blog Ideas Backlog
 
-Capture blog ideas as they come to mind so nothing gets lost.
+## Workflow
+
+1. **Capture**: Add raw idea below
+2. **Generate outline**: Feed idea + template to LLM to create structured outline
+3. **Enrich**: Gradually add details, examples, code snippets
+4. **Draft**: Use enriched outline to write full blog post
 
 ---
 
 ## Ideas
 
-### 1. uv vs Python Package Managers
+### Template for New Ideas
 
-**Title:** "uv vs pip vs Poetry: Speed, Stability, or Features?"
+**Title:** "[Your Blog Title Here]"
+
+**Target Audience:** [Tech leaders, developers, recruiters, etc.]
+
+**Core Message:** [What's the one key takeaway?]
 
 **Outline:**
-1. **The Problem**: Python packaging is fragmented - multiple tools, unclear when to use what
-2. **pip**: The baseline
-   - Built-in, works everywhere, simple
-   - No dependency resolution (until recently), no lock files
-   - Best for: Quick installs, minimal projects, guaranteed compatibility
-3. **Poetry**: The all-in-one
-   - Dependency resolution + lock files + packaging
-   - `pyproject.toml` standard, best for library authors
-   - Best for: Publishing to PyPI, managing complex dependencies
-4. **uv**: The speed demon
-   - 10-100x faster, Rust-powered
-   - Still maturing, ecosystem adoption growing
-   - Best for: CI/CD pipelines, large projects, local dev speed
-5. **Comparison Table**: Speed vs Stability vs Features
-6. **The Verdict**:
-   - pip for compatibility and simplicity
-   - Poetry for library authors and complex dependency management
-   - uv for speed-critical workflows (CI/CD, monorepos)
-   - Real-world pattern: uv in CI, poetry for packaging, pip as fallback
+1. **The Hook/Problem**: [Why should readers care?]
+2. **Main Points**:
+   - Point 1:
+   - Point 2:
+   - Point 3:
+3. **Practical Examples/Comparison**:
+4. **Key Takeaway/Verdict**:
 
-**Key Hook:** "uv is 100x faster. So why isn't everyone switching?"
+**Opening Line:** "[Attention-grabbing first sentence]"
+
+**Tags:** `tag1` `tag2` `tag3`
+
+---
+
+_Add your new blog ideas below this template_
 
 
