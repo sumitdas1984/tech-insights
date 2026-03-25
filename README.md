@@ -15,8 +15,9 @@ This repository helps me establish visibility in the tech community and showcase
 
 ```
 .
-├── posts/           # Blog post drafts and published articles
+├── posts/           # Blog post drafts and published articles (original format)
 │   └── template.md  # Standard template for new blog posts
+├── linkedin-posts/  # LinkedIn-compatible versions (tables → lists, simplified formatting)
 ├── code/            # Python code examples and snippets
 ├── images/          # Images, diagrams, and visual assets
 ├── INDEX.md         # Catalog of published blog posts with status
@@ -27,7 +28,10 @@ This repository helps me establish visibility in the tech community and showcase
 
 ## Usage
 
-1. Write blog posts in `posts/`
-2. Add code examples in `code/`
-3. Store images and diagrams in `images/`
-4. Track published articles in `INDEX.md`
+1. Write blog posts in `posts/` (full markdown with tables, code blocks, etc.)
+2. Generate LinkedIn-compatible version in `linkedin-posts/` (converts unsupported elements)
+3. Add code examples in `code/`
+4. Store images and diagrams in `images/`
+5. Track published articles in `INDEX.md`
+
+**LinkedIn Publishing:** Copy content from `linkedin-posts/` directory for direct paste to LinkedIn Articles (tables converted to bullet lists, hashtags formatted correctly)

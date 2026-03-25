@@ -5,7 +5,8 @@
 1. **Capture**: Add raw idea below
 2. **Generate outline**: Feed idea + template to LLM to create structured outline
 3. **Enrich**: Gradually add details, examples, code snippets
-4. **Draft**: Use enriched outline to write full blog post
+4. **Draft**: Use enriched outline to write full blog post in `posts/`
+5. **Convert**: Generate LinkedIn-compatible version in `linkedin-posts/` (removes tables, backticks, unsupported formatting)
 
 ---
 
