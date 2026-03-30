@@ -37,4 +37,16 @@
 
 _Add your new blog ideas below this template_
 
+---
 
+### 2. Prompt Caching: Cut LLM Costs by 90%
+
+### 3. Structured Outputs: Stop Parsing LLM JSON
+
+---
+
+### 4. Redis SCAN vs KEYS: Why Your Prod is Slow
+
+### 5. pytest Fixtures That Save 100 Lines of Test Code
+
+### 6. FastAPI Dependency Injection in 5 Minutes
