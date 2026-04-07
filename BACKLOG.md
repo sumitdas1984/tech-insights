@@ -2,11 +2,11 @@
 
 ## Workflow
 
-1. **Capture**: Add raw idea below
-2. **Generate outline**: Feed idea + template to LLM to create structured outline
-3. **Enrich**: Gradually add details, examples, code snippets
-4. **Draft**: Use enriched outline to write full blog post in `posts/`
-5. **Convert**: Generate LinkedIn-compatible version in `linkedin-posts/` (removes tables, backticks, unsupported formatting)
+1. **Capture**: Add raw idea below using the template
+2. **Create**: Use `/create-linkedin-article [idea]` to generate LinkedIn-ready article in `linkedin-articles/`
+3. **Review**: Edit and refine the generated article
+4. **Publish**: Copy content directly to LinkedIn
+5. **Track**: Update `INDEX.md` with publication status
 
 ---
 
@@ -31,7 +31,7 @@
 
 **Opening Line:** "[Attention-grabbing first sentence]"
 
-**Tags:** `tag1` `tag2` `tag3`
+**Hashtags:** #tag1 #tag2 #tag3
 
 ---
 
