@@ -15,23 +15,30 @@ This repository helps me establish visibility in the tech community and showcase
 
 ```
 .
-├── posts/           # Blog post drafts and published articles (original format)
-│   └── template.md  # Standard template for new blog posts
-├── linkedin-posts/  # LinkedIn-compatible versions (tables → lists, simplified formatting)
-├── code/            # Python code examples and snippets
-├── images/          # Images, diagrams, and visual assets
-├── INDEX.md         # Catalog of published blog posts with status
-├── BACKLOG.md       # Queue of blog ideas and topics to write about
-├── pyproject.toml   # Python project configuration
-└── README.md        # This file
+├── linkedin-articles/  # LinkedIn-ready articles (optimized formatting)
+├── code/               # Python code examples and snippets
+├── images/             # Images, diagrams, and visual assets
+├── INDEX.md            # Catalog of published articles with status
+├── BACKLOG.md          # Queue of blog ideas and topics to write about
+├── CLAUDE.md           # Project instructions and available skills
+├── pyproject.toml      # Python project configuration
+└── README.md           # This file
 ```
 
 ## Usage
 
-1. Write blog posts in `posts/` (full markdown with tables, code blocks, etc.)
-2. Generate LinkedIn-compatible version in `linkedin-posts/` (converts unsupported elements)
-3. Add code examples in `code/`
-4. Store images and diagrams in `images/`
-5. Track published articles in `INDEX.md`
+**Create LinkedIn Article:**
+```bash
+/create-linkedin-article [topic idea]
+```
 
-**LinkedIn Publishing:** Copy content from `linkedin-posts/` directory for direct paste to LinkedIn Articles (tables converted to bullet lists, hashtags formatted correctly)
+This will:
+- Generate a structured outline from BACKLOG.md template
+- Create a LinkedIn-ready article in `linkedin-articles/`
+- Use proper LinkedIn formatting (no code blocks, no tables, hashtags)
+- Ready to copy/paste directly to LinkedIn
+
+**Additional workflows:**
+1. Add code examples in `code/`
+2. Store images and diagrams in `images/`
+3. Track published articles in `INDEX.md`
