@@ -50,3 +50,5 @@ _Add your new blog ideas below this template_
 ### 5. pytest Fixtures That Save 100 Lines of Test Code
 
 ### 6. FastAPI Dependency Injection in 5 Minutes
+
+### 7. TOON vs JSON: Slash Your LLM Prompt Tokens
